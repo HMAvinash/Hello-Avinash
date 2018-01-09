@@ -1,0 +1,10 @@
+<!ELEMENT Students (Course+,Student+)>
+<!ELEMENT Course EMPTY>
+<!ATTLIST Course Cid ID #REQUIRED>
+<!ATTLIST Course Cname CDATA #REQUIRED>
+<!ATTLIST Course Cfee CDATA #REQUIRED>
+<!ELEMENT Student EMPTY>
+<!ATTLIST Student Stud_Id ID #REQUIRED>
+<!ATTLIST Student Stud_Name CDATA #REQUIRED>
+<!ATTLIST Student Stud_Course IDREF #IMPLIED>
+<!ATTLIST Student Stud_Courses IDREFS #IMPLIED>

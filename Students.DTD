@@ -1,0 +1,7 @@
+<!ELEMENT Students (Student+)>
+<!ELEMENT Student EMPTY>
+<!ATTLIST Student Stud_Id CDATA #REQUIRED>
+<!ATTLIST Student Stud_Name CDATA #IMPLIED>
+<!ATTLIST Student Stud_Course CDATA  "JAVA">
+<!ATTLIST Student Stud_Fee CDATA #FIXED "1000">
+

@@ -1,0 +1,11 @@
+<!DOCTYPE Students SYSTEM "C:\Workspace\XML\Attribute\IDREF.DTD">
+<Students>
+<Course Cid="CJ101" Cname="Core java" Cfee="500"/>
+<Course Cid="AJ102" Cname="Adv java" Cfee="1500"/>
+<Course Cid="S103" Cname="Spring" Cfee="500"/>
+<Student Stud_Id="JSP101" Stud_Name="Avinash" Stud_Course="CJ101"/>
+<Student Stud_Id="JSP102" Stud_Name="Beshu" Stud_Course="CJ101"/>
+<Student Stud_Id="JSP103" Stud_Name="Daya" Stud_Course="AJ102"/>
+<Student Stud_Id="JSP104" Stud_Name="Vijeth" Stud_Course="S103"/>
+<Student Stud_Id="JSP105" Stud_Name="Akhil" Stud_Courses="S103 CJ101"/>
+</Students>
